@@ -1,16 +1,17 @@
 # Todos
 
 Additional Features
-[x] Health Checks: Implement health checks to periodically verify if backend servers are up and running.
-[] Error Handling: Add error handling to manage failed requests and retry logic.
-[] Scalability: Enhance the load balancer to handle more complex scenarios, like different load balancing strategies or handling of websockets.
-[] Logging and Monitoring: Implement logging for requests and server statuses for better monitoring and debugging.
-[] Add possibility for other load balancing algorithms
+
+- [x] Health Checks: Implement health checks to periodically verify if backend servers are up and running.
+- [ ] Error Handling: Add error handling to manage failed requests and retry logic.
+- [ ] Scalability: Enhance the load balancer to handle more complex scenarios, like different load balancing strategies or handling of websockets.
+- [ ] Logging and Monitoring: Implement logging for requests and server statuses for better monitoring and debugging.
+- [ ] Add possibility for other load balancing algorithms
 
 # Notes on Load Balancing
 
-https://aws.amazon.com/de/what-is/load-balancing/
-https://www.youtube.com/watch?v=sCR3SAVdyCc
+- https://aws.amazon.com/de/what-is/load-balancing/
+- https://www.youtube.com/watch?v=sCR3SAVdyCc
 
 ## What is load balancing?
 
