@@ -15,7 +15,7 @@ app3.get("/", (req, res) => res.send("Hi from Server 3"));
 app3.get("/health", (req, res) => res.send("Server 3 is running"));
 app3.listen(3003, () => console.log("Server 3 running on port 3003"));
 
-const app4 = express();
-app4.get("/", (req, res) => res.send("Hi from Server 4"));
-app4.get("/health", (req, res) => res.send("Server 4 is running"));
-app4.listen(3004, () => console.log("Server 4 running on port 3004"));
+// const app4 = express();
+// app4.get("/", (req, res) => res.send("Hi from Server 4"));
+// app4.get("/health", (req, res) => res.send("Server 4 is running"));
+// app4.listen(3004, () => console.log("Server 4 running on port 3004"));

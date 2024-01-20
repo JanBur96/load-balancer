@@ -1,12 +1,19 @@
+# Introduction
+
+Since I wanted to learn more about load balancing, I decided to implement a simple load balancer in Node. The load balancer is able to handle HTTP requests and distribute them to multiple backend servers.
+
+This is a very simple implementation of a load balancer. It is not meant to be used in production. It is just a learning project.
+
 # Todos
 
 Additional Features
 
 - [x] Health Checks: Implement health checks to periodically verify if backend servers are up and running.
-- [ ] Error Handling: Add error handling to manage failed requests and retry logic.
-- [ ] Scalability: Enhance the load balancer to handle more complex scenarios, like different load balancing strategies or handling of websockets.
+- [x] Add least connections algorithm
+- [x] Error Handling: Remove server which isn't working.
+- [ ] Scalability: Implement a way to scale the load balancer horizontally.
 - [ ] Logging and Monitoring: Implement logging for requests and server statuses for better monitoring and debugging.
-- [ ] Add possibility for other load balancing algorithms
+- [ ] Add possibility to add least reaspone time algorithm
 
 # Notes on Load Balancing
 
